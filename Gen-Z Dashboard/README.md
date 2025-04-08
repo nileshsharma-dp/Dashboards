@@ -79,10 +79,12 @@ Gen-Z-Dashboard (Career Aspirations)
 
 ## Feedback & Collaboration
 
-We’re open to collabs and input from the community!  
-- Got a cool idea? [Open an issue](../../issues)  
-- Want to enhance visuals? Fork it & submit a PR  
-- Reach out via GitHub Discussions or connect on LinkedIn!
+We welcome feedback, ideas, and contributions from the community to help improve this project.  
+
+- Have a suggestion or feature request? [Open an issue](https://github.com/nileshsharma-dp/Dashboards/issues)  
+- 🛠Interested in contributing? Fork the repository and submit a pull request  
+- Join the discussion on [GitHub Discussions](https://github.com/nileshsharma-dp/Dashboards/discussions)  
+- Connect with me professionally on [LinkedIn](https://www.linkedin.com/in/nilesh-sharma-8716725a)
 
 ---
 
