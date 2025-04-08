@@ -28,8 +28,8 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
 ---
 
 ## Project Highlights
-- Total Participants: 2,332  
-- Top Preferred Work Environment: Hybrid (38.76%)  
+- Total Participants: 3,931  
+- Top Preferred Work Environment: Hybrid with Monthly More then 15 days in Ofiice (37.75%)  
 - Biggest Workplace Frustration: Lack of clear goals (2,214 responses)  
 - Top Expected First 3-Year Salary: $50k+ (757 responses)  
 - % Willing to Work in Misaligned Mission Company: 27.32%  
