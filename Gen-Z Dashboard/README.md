@@ -31,7 +31,7 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
 - Total Participants: 3,931  
 - Top Preferred Work Environment: Hybrid with Monthly More then 15 days in Ofiice (37.75%)  
   ### Top 5 Preferred Work Environments by Gen-Z  
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/top-5%20work_Env.png?raw=true" alt="Top 5 Work Environments" width="600"/>
+  <img src="fvwaeav" alt="Top 5 Work Environments" width="600"/>
 
 - Biggest Workplace Frustration: Lack of clear goals (2,214 responses)  
 - Top Expected First 3-Year Salary: $50k+ (757 responses)  
