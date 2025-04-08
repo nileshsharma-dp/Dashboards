@@ -33,21 +33,21 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
   - Female: 1,595  
   - Other: 4
   <p align="center">
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Gender%20Distribution%20Gen-Z.png" width="600"/>
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/KPI%20Screenshots/Gender%20Distribution.png" width="600"/>
   </p>
   
 - **Top Preferred Work Environment:**  
   1. Hybrid (More than 15 days/month in office) – **29.0%**
   2. Remote with Travel – **28.7%**
 <p align="center">
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Work%20Env-Choice.png" alt="Top 5 Work Environments" width="600"/>
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/KPI%20Screenshots/Work%20Env-Choice.png" alt="Top 5 Work Environments" width="600"/>
 </p>
 
 - **Top Workplace Frustration:**
   1. Lack of clear goals – **23.9%**
   2. Office Politics - **21.8%**
 <p align="center">
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Frustration%20Factors%20Gen-Z.png" width="600"/>
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/KPI%20Screenshots/Frustration%20Factors.png" width="600"/>
 </p>
 - **Top Expected First 3-Year Salary:** $50k+ (757 responses)  
 - **% Willing to Work in Misaligned Mission Company:** 27.32%
