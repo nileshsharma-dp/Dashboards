@@ -40,7 +40,7 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
   1. Hybrid (More than 15 days/month in office) – **29.0%**
   2. Remote with Travel – **28.7%**
 <p align="center">
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/top-5%20work_Environment.png?raw=true" alt="Top 5 Work Environments" width="600"/>
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Work%20Env-Choice.png" alt="Top 5 Work Environments" width="600"/>
 </p>
 
 - **Top Workplace Frustration:**
