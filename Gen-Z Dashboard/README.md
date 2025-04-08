@@ -1,3 +1,5 @@
+![Dashboard Thumbnail](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Gen-Z%20Image.png)
+
 # Gen-Z Dashboard (Career Aspirations)
 
 ## Project Overview  
