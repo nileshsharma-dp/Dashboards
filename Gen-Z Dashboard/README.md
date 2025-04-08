@@ -51,7 +51,8 @@ Gen-Z-Dashboard (Career Aspirations)
 │   ├── Mission_Aspiration_1.png  
 │   ├── Mission_Aspiration_2.png  
 │  
-├── Cleaned_Career Aspirations (Responses).csv  
+├── Cleaned_Career Aspirations (Responses).csv
+├── Gen-Z Image.png (Cover Image) 
 ├── README.md  
 ```
 
