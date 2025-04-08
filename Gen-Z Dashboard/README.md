@@ -1,4 +1,4 @@
-![Dashboard Thumbnail](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Gen-Z%20Image.png)
+![Dashboard Thumbnail](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Gen-Z%20Cover.png)
 
 # Gen-Z Dashboard (Career Aspirations)
 
