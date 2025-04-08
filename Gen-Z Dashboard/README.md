@@ -32,6 +32,10 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
   - Male: 2,332  
   - Female: 1,595  
   - Other: 4
+  <p align="center">
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Gender%20Disribution.png" width="600"/>
+  </p>
+  
 - **Top Preferred Work Environment:**  
   1. Hybrid (More than 15 days/month in office) – **29.0%**
   2. Remote with Travel – **28.7%**
