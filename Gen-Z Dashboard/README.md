@@ -58,23 +58,32 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
 ## Repository Structure
 
 ```bash
-Gen-Z-Dashboard (Career Aspirations)  
-│  
-├── Dashboards  
-│   ├── Manager_Aspiration_1.pbix  
-│   ├── Mission_Aspiration_1.pbix  
-│   ├── Mission_Aspiration_2.pbix  
-│  
-├── Screenshots  
-│   ├── Manager_Aspiration_1.png  
-│   ├── Mission_Aspiration_1.png  
-│   ├── Mission_Aspiration_2.png  
-│  
-├── Cleaned_Career Aspirations (Responses).csv
-├── Gen-Z Image.png (Cover Image) 
-├── README.md  
-```
+Gen-Z-Dashboard (Career Aspirations)
+│
+├── GenZ Dashboard.pbix
+│ ├── Manager_Aspiration_1.pbix
+│ ├── Mission_Aspiration_1.pbix
+│ ├── Mission_Aspiration_2.pbix
+│
+├── Images
+│ ├── Dashboard Screenshots
+│ │ ├── Manager Aspiration_1.png
+│ │ ├── Mission Aspiration_1.png
+│ │ ├── Mission Aspiration_2.png
+│ │
+│ ├── KPI Screenshots
+│ │ ├── Gender Distribution.png
+│ │ ├── Frustration Factors.png
+│ │ ├── Work Env-Choice.png
+│ │
+│ ├── Gen-Z Cover.png
+│
+├── Data
+│ ├── Cleaned_Career Aspirations (Responses).csv
+│
+└── README.md
 
+```
 ---
 
 ## Feedback & Collaboration
