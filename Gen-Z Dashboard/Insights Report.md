@@ -2,7 +2,7 @@
 
 ## Manager Aspiration – Dashboard 1
 
-![Manager Aspiration](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/KPI%20Screenshots/Manager%20Aspiration%20-%201.png)
+![Manager Aspiration](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Dashboard%20Screenshots/Manager%20Aspiration%20-%201.png)
 
 ### Description
 This dashboard explores Gen-Z preferences around work hours, team dynamics, leadership expectations, and common workplace frustrations.
@@ -28,7 +28,7 @@ This dashboard explores Gen-Z preferences around work hours, team dynamics, lead
 
 ## Mission Aspiration – Dashboard 1
 
-![Mission Aspiration 1](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/KPI%20Screenshots/Mission%20Aspiration%20-%201.png)
+![Mission Aspiration 1](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Dashboard%20Screenshots/Mission%20Aspiration%20-%201.png)
 
 ### Description
 This dashboard visualizes Gen-Z’s views on company mission alignment, hybrid work preferences, salary expectations, and preferred learning styles.
@@ -51,7 +51,7 @@ This dashboard visualizes Gen-Z’s views on company mission alignment, hybrid w
 
 ## Mission Aspiration – Dashboard 2
 
-![Mission Aspiration 2](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/KPI%20Screenshots/Mission%20Aspiration%20-%202.png)
+![Mission Aspiration 2](https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Dashboard%20Screenshots/Mission%20Aspiration%20-%202.png)
 
 ### Description
 This dashboard breaks down what influences Gen-Z’s long-term commitment to jobs — including social impact, motivation, and sources of frustration.
