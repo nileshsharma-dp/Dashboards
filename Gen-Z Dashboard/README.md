@@ -44,8 +44,8 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
 </p>
 
 - **Top Workplace Frustration:**
-  1. Lack of clear goals – **27.1%**
-  2. Office Politics - **24.8%**
+  1. Lack of clear goals – **23.9%**
+  2. Office Politics - **21.8%**
 <p align="center">
   <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Frustration%20Factors%20Gen-Z.png" width="600"/>
 </p>
