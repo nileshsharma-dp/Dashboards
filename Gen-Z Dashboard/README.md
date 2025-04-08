@@ -20,7 +20,7 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
 ---
 
 ## Why This Project Stands Out
-- Data-Driven: Real survey data from 2,300+ Gen-Z participants  
+- Data-Driven: Real survey data from 3,900+ Gen-Z participants  
 - Visually Engaging: Clean, professional UI with Power BI's interactivity  
 - Actionable Insights: Useful for HR pros, recruiters, and org leaders  
 - Customizable & Scalable: Adaptable to new datasets and evolving trends  
@@ -33,7 +33,7 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
   - Female: 1,595  
   - Other: 4
   <p align="center">
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Gender%20Disribution.png" width="600"/>
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Gender%20Distribution%20Gen-Z.png" width="600"/>
   </p>
   
 - **Top Preferred Work Environment:**  
