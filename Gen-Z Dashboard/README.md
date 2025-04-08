@@ -28,14 +28,28 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
 ---
 
 ## Project Highlights
-- Total Participants: 3,931  
-- Top Preferred Work Environment: Hybrid with Monthly More then 15 days in Ofiice (37.75%)  
-  ### Top 5 Preferred Work Environments by Gen-Z  
-  <img src="fvwaeav" alt="Top 5 Work Environments" width="600"/>
+- **Total Participants:** 3,931  
+  - Male: 2,332  
+  - Female: 1,595  
+  - Other: 4
+- **Top Preferred Work Environment:**  
+  1️. Hybrid (More than 15 days/month in office) – **29.0%**  
+  2️. Remote with Travel – **28.7%**
 
-- Biggest Workplace Frustration: Lack of clear goals (2,214 responses)  
-- Top Expected First 3-Year Salary: $50k+ (757 responses)  
-- % Willing to Work in Misaligned Mission Company: 27.32%  
+### Top 5 Preferred Work Environments by Gen-Z
+<p align="center">
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/top-5%20work_Environment.png?raw=true" alt="Top 5 Work Environments" width="600"/>
+</p>
+
+- **Biggest Workplace Frustration:** Lack of clear goals – **27.1%**
+
+### Top 5 Workplace Frustration by Gen-Z
+<p align="center">
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/top-5%20work_Environment.png?raw=true" alt="Top 5 Work Environments" width="600"/>
+</p>
+- **Top Expected First 3-Year Salary:** $50k+ (757 responses)  
+- **% Willing to Work in Misaligned Mission Company:** 27.32%
+
 
 ---
 
