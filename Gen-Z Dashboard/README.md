@@ -47,7 +47,7 @@ Live Dashboard: [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=
   1. Lack of clear goals – **27.1%**
   2. Office Politics - **24.8%**
 <p align="center">
-  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Frustration%20Factors.png" width="600"/>
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Gen-Z%20Dashboard/Images/Frustration%20Factors%20Gen-Z.png" width="600"/>
 </p>
 - **Top Expected First 3-Year Salary:** $50k+ (757 responses)  
 - **% Willing to Work in Misaligned Mission Company:** 27.32%
