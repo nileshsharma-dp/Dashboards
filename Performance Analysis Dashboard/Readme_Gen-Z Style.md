@@ -78,7 +78,7 @@ This view supports strategic decision-making by identifying:
 
 ## Key Insights
 
-### 🧾 Yearly Performance
+### Yearly Performance
 - **Sales (YTD)**: 1.4M  
 - **Sales (PYTD)**: 6.9M  
 - **Variance**:  -5.5M  
