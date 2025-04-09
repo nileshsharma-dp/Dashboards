@@ -1,6 +1,6 @@
 # 📊 Performance Report Dashboard (Plant Co.)
 
-### 🔗 Dashboard Link : *[https://app.powerbi.com/reportEmbed?reportId=e2ef757d-735a-410f-84f4-8ef9d5b4b9d3&autoAuth=true&ctid=24474f92-a838-4e8c-8c75-c12918e3b160]*
+### 🔗 Dashboard Link : https://app.powerbi.com/reportEmbed?reportId=e2ef757d-735a-410f-84f4-8ef9d5b4b9d3&autoAuth=true&ctid=24474f92-a838-4e8c-8c75-c12918e3b160
 
 ---
 
@@ -114,8 +114,6 @@ This view supports strategic decision-making by identifying:
 
 ## 🖼️ Dashboard Snapshot
 
-![Dashboard](Dashboard.png)
+![Dashboard](https://github.com/nileshsharma-dp/Dashboards/blob/main/Performance%20Analysis%20Dashboard/Images/Dashboard.png)
 
 ---
-
-> 📁 *Pro Tip: Add this dashboard to your GitHub portfolio with a hosted Power BI public link (if client allows)*
