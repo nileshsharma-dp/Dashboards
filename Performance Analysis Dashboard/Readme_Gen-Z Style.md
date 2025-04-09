@@ -1,3 +1,5 @@
+![Dashboard Thumbnail](https://github.com/nileshsharma-dp/Dashboards/blob/main/Performance%20Analysis%20Dashboard/Images/Cover%20page.png)
+
 # Performance Report Dashboard (Plant Co.)
 
 ### 🔗 Dashboard Link : [View on Power BI](https://app.powerbi.com/reportEmbed?reportId=e2ef757d-735a-410f-84f4-8ef9d5b4b9d3&autoAuth=true&ctid=24474f92-a838-4e8c-8c75-c12918e3b160)
