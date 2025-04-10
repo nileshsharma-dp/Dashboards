@@ -1,3 +1,7 @@
+![Cover](Cover%20Image.png)
+
+---
+
 # Sales Dashboard
 
 A comprehensive interactive dashboard that visualizes sales performance across multiple dimensions including region, category, and customer behavior. Built for deep-dive analysis on total sales, profit, customer base, and order trends.
@@ -65,19 +69,9 @@ To help stakeholders track key sales performance metrics, identify high-performi
 
 ---
 
-## Dashboard Cover
-
-*(Insert cover image here)*  
-Example:  
-![Cover](Cover%20Image.png)
-
----
-
 ## Dashboard Preview
 
-*(Insert main dashboard screenshot here)*  
-Example:  
-![Dashboard](Sales%20Dashboard%20Screenshot.png)
+![Dashboard](https://github.com/nileshsharma-dp/Dashboards/blob/main/Sales%20Dashboard/Image/Sales%20Dashboard%20Screenshot.png)
 
 ---
 
