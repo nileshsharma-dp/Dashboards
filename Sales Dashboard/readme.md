@@ -1,4 +1,4 @@
-![Cover](Cover%20Image.png)
+![Cover](https://github.com/nileshsharma-dp/Dashboards/blob/main/Sales%20Dashboard/Image/Cover%20Page.png)
 
 ---
 
