@@ -1,81 +1,88 @@
-![Cover](https://github.com/nileshsharma-dp/Dashboards/blob/main/Sales%20Dashboard/Image/Cover%20Page.png)
+# Business Intelligence Dashboard | 2021
 
----
+![Customer Dashboard](./Customer%20Dashborad.png)
 
-# Sales Dashboard
+## Project Overview
 
-A comprehensive interactive dashboard that visualizes sales performance across multiple dimensions including region, category, and customer behavior. Built for deep-dive analysis on total sales, profit, customer base, and order trends.
+This project presents two dashboards designed to analyze customer and sales data for the year 2021, with comparative insights from 2020 and 2023. These dashboards provide valuable business intelligence for understanding performance, customer behavior, and profitability trends.
 
----
+The dashboards were created using data visualization tools with built-in filters to explore the data interactively based on the following dimensions:
+- Year (2020, 2021, 2023)
+- Category
+- Sub-Category
+- Region
+- State
+- City
 
-## Tool Used
+## Key Insights and Features
 
-Power BI
+### Customer Dashboard
+- **Total Customers**: 573 (3.7% decrease vs previous year)
+- **Total Orders**: 1,038 (7.1% increase vs previous year)
+- **Average Sales per Customer**: $821 (0.9% increase vs previous year)
+- **Customer Distribution**:
+  - The majority of customers placed only one order.
+- **Top 10 Customers by Profit**:
+  - Highest individual customer profit: $3,197
 
----
+### Sales Dashboard
+- **Total Sales**: $471K (2.8% decrease vs previous year)
+- **Total Profit**: $62K (19.6% increase vs previous year)
+- **Total Quantity Sold**: 8K (5.25% increase vs previous year)
+- **Sales and Profit by Sub-Category**:
+  - High profitability in Phones, Accessories, and Machines
+  - Loss observed in Binders and Bookcases
+- **Sales and Profit Over Time**:
+  - Weekly trends clearly highlight peak and low-performing periods
 
-## Live Dashboard
+## Why This Project Stands Out
 
-Access the interactive report here:  
-[View on Power BI Service](https://app.powerbi.com/reportEmbed?reportId=d18aed8a-9b66-4b51-85ff-74f0bedce7f6&autoAuth=true&ctid=24474f92-a838-4e8c-8c75-c12918e3b160)
+- Combines customer and sales analysis in a unified format
+- Supports time-based and category-based comparisons
+- Incorporates detailed filters for regional and categorical analysis
+- Focused on real business use cases: retention, profitability, and product performance
+- Provides actionable insights at both the customer and product levels
 
----
+## Project Highlights
 
-## Objective
+| Category                | Insight                                   |
+|-------------------------|-------------------------------------------|
+| Top Customer (Profit)   | Christopher Martinez - $3,197             |
+| Peak Performance Month  | December                                  |
+| Lowest Performance Month| January                                   |
+| Most Profitable Segment | Phones                                    |
+| Subcategory with Losses | Binders, Bookcases                        |
+| Most Frequent Order Count | 1 order per customer (majority)        |
 
-To help stakeholders track key sales performance metrics, identify high-performing regions and product categories, and evaluate customer segmentation and buying behavior.
+## Key Metrics
 
----
+- Total Sales, Profit, and Quantity
+- Year-over-Year Growth Metrics
+- Orders and Sales per Customer
+- Customer Ranking by Profit
+- Category and Sub-Category Profitability
+- Regional, State, and City-Level Filtering
+- Weekly Trends in Sales and Profit
 
-## Key Features
+### Repository Structure
 
-- **KPI Summary Cards**
-  - Total Sales: 2.30M  
-  - Total Profit: 286.40K  
-  - Total Customers: 793  
-  - Total Orders: 5009
+```
+BI-Dashboard-2021/
+├── Customer Dashboard/
+│   └── Customer Dashborad.png
+├── Sales Dashboard/
+│   └── Sales Dashborad.png
+└── README.md
+```
 
-- **Interactive Filters**
-  - Month  
-  - Ship Mode  
-  - Dimensions (Region, Segment, Category)  
-  - Value Selector (Total Sales, Total Profit, Profit %)  
-  - Customer Type (One-time, Repeat)
+## Dashboard Images
 
-- **Time Filter**
-  - Year range selector (2014–2018)  
-  - Quarter toggle (Q1–Q4)
+### Customer Dashboard
+![Customer Dashboard](./Customer%20Dashborad.png)
 
-- **Visualizations**
-  - Profit % by Region  
-  - Sales by Sub-category
+### Sales Dashboard
+![Sales Dashboard](./Sales%20Dashborad.png)
 
----
+## Feedback and Collaboration
 
-## Insights
-
-- The West region reports the highest profit percentage, while the Central region is the lowest.
-- Phones and Chairs are the top-selling sub-categories by sales volume.
-- Sales and profitability trends vary by customer type and shipping mode, suggesting areas for optimization.
-
----
-
-## Files Included
-
-- `Sales_Dashboard.pbix`  
-- `README.md`  
-- `Sales Dashboard Screenshot.png`  
-- `Cover Image.png`
-
----
-
-## Dashboard Preview
-
-![Dashboard](https://github.com/nileshsharma-dp/Dashboards/blob/main/Sales%20Dashboard/Image/Sales%20Dashboard%20Screenshot.png)
-
----
-
-## Author
-
-Created by **Nilesh Sharma**  
-Reach out for collaborations or feedback.
+Contributions, feedback, and suggestions are welcome. Feel free to open an issue or submit a pull request if you'd like to contribute or enhance this project.

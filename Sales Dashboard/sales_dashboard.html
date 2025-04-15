@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Sales Performance Dashboard</title>
+    <!-- Latest version of Plotly.js CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            text-align: center;
+        }
+        #upload-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #upload-input {
+            margin: 10px 0;
+        }
+        .chart-container {
+            margin: 20px auto;
+            width: 80%;
+            height: 400px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Sales Performance Dashboard</h1>
+
+    <!-- File Upload Section -->
+    <div id="upload-container">
+        <label for="upload-input"><strong>Upload your Sales JSON file:</strong></label>
+        <br>
+        <input type="file" id="upload-input" accept=".json">
+    </div>
+
+    <!-- Charts Section -->
+    <div id="churn-rate" class="chart-container"></div>
+    <div id="credit-score" class="chart-container"></div>
+    <div id="geography" class="chart-container"></div>
+    <div id="num-products" class="chart-container"></div>
+    <div id="activity-vs-churn" class="chart-container"></div>
+
+    <script>
+        document.getElementById('upload-input').addEventListener('change', handleFileUpload);
+
+        function handleFileUpload(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const data = JSON.parse(e.target.result);
+                    generateDashboard(data);
+                };
+                reader.readAsText(file);
+            } else {
+                alert("Please upload a valid JSON file.");
+            }
+        }
+
+        function generateDashboard(data) {
+            // Extract necessary data
+            const churnData = data.map(d => d.Exited);
+            const creditScores = data.map(d => d.CreditScore);
+            const geography = data.map(d => d.Geography);
+            const numProducts = data.map(d => d.NumOfProducts);
+            const activity = data.map(d => d.IsActiveMember);
+            const exited = data.map(d => d.Exited);
+
+            // 1. Customer Churn Rate
+            const churnCounts = [0, 1].map(val => churnData.filter(x => x === val).length);
+            Plotly.newPlot('churn-rate', [{
+                labels: ['Retained', 'Exited'],
+                values: churnCounts,
+                type: 'pie',
+                marker: { colors: ['#28a745', '#dc3545'] }
+            }], {
+                title: 'Customer Churn Rate'
+            });
+
+            // 2. Credit Score Distribution
+            Plotly.newPlot('credit-score', [{
+                x: creditScores,
+                type: 'histogram',
+                marker: { color: '#17a2b8' }
+            }], {
+                title: 'Credit Score Distribution',
+                xaxis: { title: 'Credit Score' },
+                yaxis: { title: 'Count' }
+            });
+
+            // 3. Customer Distribution by Geography
+            const geoCounts = {};
+            geography.forEach(g => geoCounts[g] = (geoCounts[g] || 0) + 1);
+            Plotly.newPlot('geography', [{
+                x: Object.keys(geoCounts),
+                y: Object.values(geoCounts),
+                type: 'bar',
+                marker: { color: '#ffc107' }
+            }], {
+                title: 'Customer Distribution by Geography',
+                xaxis: { title: 'Geography' },
+                yaxis: { title: 'Number of Customers' }
+            });
+
+            // 4. Number of Products per Customer
+            const productCounts = {};
+            numProducts.forEach(p => productCounts[p] = (productCounts[p] || 0) + 1);
+            Plotly.newPlot('num-products', [{
+                x: Object.keys(productCounts),
+                y: Object.values(productCounts),
+                type: 'bar',
+                marker: { color: '#6610f2' }
+            }], {
+                title: 'Number of Products per Customer',
+                xaxis: { title: 'Number of Products' },
+                yaxis: { title: 'Number of Customers' }
+            });
+
+            // 5. Impact of Customer Activity on Churn
+            const activeExited = { Active: [0, 0], Inactive: [0, 0] };
+            for (let i = 0; i < activity.length; i++) {
+                if (activity[i] === 1) {
+                    activeExited.Active[exited[i]] += 1;
+                } else {
+                    activeExited.Inactive[exited[i]] += 1;
+                }
+            }
+            Plotly.newPlot('activity-vs-churn', [{
+                x: ['Retained', 'Exited'],
+                y: activeExited.Active,
+                name: 'Active Members',
+                type: 'bar',
+                marker: { color: '#28a745' }
+            }, {
+                x: ['Retained', 'Exited'],
+                y: activeExited.Inactive,
+                name: 'Inactive Members',
+                type: 'bar',
+                marker: { color: '#dc3545' }
+            }], {
+                title: 'Impact of Customer Activity on Churn',
+                barmode: 'group',
+                yaxis: { title: 'Number of Customers' }
+            });
+        }
+    </script>
+</body>
+</html>
