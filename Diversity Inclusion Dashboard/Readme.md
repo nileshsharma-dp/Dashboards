@@ -1,95 +1,62 @@
-# Production Performance Dashboard – Vapi Plant
+# Gender Diversity Dashboard
 
-## Executive Summary
-This Power BI dashboard offers a deep-dive into the **production performance** of the Vapi Plant from **Jan–Dec 2023**. It tracks operational efficiency, batch quality, downtime reasons, and yield performance — all in one interactive visual.
-
----
-
-## Business Problem
-Management needed:
-- A single source of truth for production metrics
-- To monitor downtime and operator performance
-- Quick visibility into batch quality deviations like OOS and OOT
-- A way to track production efficiency over time
+## Overview
+This dashboard provides an insightful analysis of gender diversity across various departments, job levels, and regions. It highlights hiring trends, promotion patterns, turnover rates, performance ratings, and executive gender distribution to help evaluate inclusion and equity within the organization.
 
 ---
 
-## Approach
-- Used a year-long dataset (Jan–Dec 2023)
-- Created measures for yield, downtime %, and operator ranking
-- Built intuitive visuals: area charts, bar graphs, donut KPIs, slicers
-- Filtered by **Plant (Vapi)** and **Time Period** with interactivity
+## Key Metrics & Insights
+
+### 1. Hiring
+- Junior Officers have the highest number of hires, followed by Senior Officers and Managers.
+- Overall Hiring:
+  - **Male:** 59%
+  - **Female:** 41%
+- Executive and Director levels show significantly lower female hiring.
+
+### 2. Promotion
+- Promotions increase steadily across job levels.
+- Junior Officers received the highest number of promotions.
+- The percentage of female promotions increases with job level, peaking at 52% in Senior Officer roles.
+
+### 3. Turnover Rate
+- **Female Turnover:** Peaks at 10% in Junior Officer role.
+- **Male Turnover:** Slightly lower, peaking at 9%.
+- Notable turnover trends observed in Senior Manager and Director levels.
+
+### 4. Performance Rating
+- **Average Ratings:**
+  - Female: 2.42
+  - Male: 2.41
+- Performance distribution is similar across genders.
+
+### 5. Executive Gender Balance
+- **Post FY20:**
+  - Female: 12.5%
+  - Male: 87.5%
+- **Post FY21:**
+  - Female: 15.79%
+  - Male: 84.21%
+- All new hires and promotions at the executive level in FY20 were male.
+
+### 6. Age Group Distribution
+- Most employees fall in:
+  - **20 to 29 years**: 215
+  - **30 to 39 years**: 161
+- Very few employees are aged above 50.
+- Executive and director roles trend older; junior and senior officers are generally younger.
 
 ---
 
-## Key Metrics (Jan 2023 – Dec 2023)
+## Filters Available
+- Department
+- Age Group
+- Job Level
+- Region
 
-| Metric                     | Value         |
-|---------------------------|---------------|
-| Operators              | 8             |
-| Products                | 4             |
-| Production Orders       | 43            |
-| Total Batches           | 172           |
-| Avg. Batches/Order      | 4             |
-| Total Yield             | 86.49%        |
-| Production Time (mins)  | 65,339        |
-| Downtime (mins)         | 3,285         |
-| Non-Conforming Batches  | 6             |
-| OOS Events              | 4             |
-| OOT Events              | 2             |
+These filters enable focused analysis of gender trends within specific business units or geographic locations.
 
 ---
 
-## Visual Highlights
-
-- **Trend Analysis**
-  - Yield % shows consistent performance with minor dips
-  - Downtime shows spikes in certain months, indicating root causes
-  - Batches trend reflects production intensity
-
-- **Operator Analysis**
-  - Top 5 Operators ranked by yield performance
-  - Individual operator comparison for targeted training
-
-- **Downtime Analysis**
-  - Top 5 Downtime Reasons visualized for RCA
-  - Helps identify repeat causes and plan preventive maintenance
-
----
-
-## Dashboard Snapshot
-
-![Dashboard Screenshot](dashboard_preview.png)
-
----
-
-## Access the Dashboard
-
-[Performance Report (Plant Co.).pbix](Performance%20Report%20(Plant%20Co.).pbix)
-
----
-
-## Insights Unlocked
-
-- Operators 2 & 5 are high performers (based on yield)
-- Downtime spikes linked to equipment maintenance & cleaning delays
-- ost OOS cases occurred in Q2 — needs root cause analysis
-- Avg. batches per order = 4 → supports batch planning decisions
-
----
-
-## Tools & Tech Stack
-- **Power BI** – DAX, Data Modeling, Visuals
-- **Power Query** – Data Cleaning
-- **Excel** – Initial Data Source
-
----
-
-## Let’s Connect
-
-Wanna collab or hire?  
-Check out more dashboards at [GitHub Portfolio](https://github.com/nileshsharma-dp)
-
----
-
-> © 2025 Nilesh Sharma — Built with in Power BI
+## Purpose
+This dashboard supports HR and DEI (Diversity, Equity, and Inclusion) teams in identifying gender disparities and strategizing improvements toward a more balanced and inclusive workplace.
