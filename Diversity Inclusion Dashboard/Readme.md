@@ -1,3 +1,8 @@
+<!-- Cover Page Image -->
+<p align="center">
+  <img src="https://github.com/nileshsharma-dp/Dashboards/blob/main/Diversity%20Inclusion%20Dashboard/Images/Cover%20page.jpg" width="100%" />
+</p>
+
 # Gender Diversity Dashboard
 
 ## Overview
